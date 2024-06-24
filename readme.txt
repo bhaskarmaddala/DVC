@@ -3,6 +3,16 @@
 # cREATE Conda environment 
     --> conda create --prefix ./env python=3.8 -y
 
+#Difference Between GIT , MLFLOW , DVC
+
+GIT: Source code Management i.e for code versioning
+
+MLFLOW : this is for Experimental Tracking , this will track artifacts, logs and parameter
+        we have UI for Mlflow 
+        we can do model registry and model versioning
+
+DVC : This is for Data Versioning and Pipeline versioning
+
 # Purpose of dvc is to track the changes of Data Versioning and Pipeline versioning
 # Initilize DVC 
    --> dvc init
